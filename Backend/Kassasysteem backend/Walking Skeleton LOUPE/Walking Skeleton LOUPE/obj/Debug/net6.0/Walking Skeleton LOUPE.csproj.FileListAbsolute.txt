@@ -1,0 +1,61 @@
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\appsettings.json
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Walking Skeleton LOUPE.exe
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Walking Skeleton LOUPE.deps.json
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Walking Skeleton LOUPE.runtimeconfig.json
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Walking Skeleton LOUPE.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\ref\Walking Skeleton LOUPE.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Walking Skeleton LOUPE.pdb
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.csproj.AssemblyReference.cache
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.AssemblyInfoInputs.cache
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.AssemblyInfo.cs
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.csproj.CoreCompileInputs.cache
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\scopedcss\bundle\Walking Skeleton LOUPE.styles.css
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.csproj.CopyComplete
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\ref\Walking Skeleton LOUPE.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.pdb
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\obj\Debug\net6.0\Walking Skeleton LOUPE.genruntimeconfig.cache
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sem Kivits\Documents\GitHub\back-end\Walking Skeleton LOUPE\Walking Skeleton LOUPE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
