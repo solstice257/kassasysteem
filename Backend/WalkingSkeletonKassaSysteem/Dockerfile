@@ -8,12 +8,12 @@ WORKDIR /src
 COPY Backend/WalkingSkeletonKassaSysteem/*.csproj .
 RUN dotnet restore "./WalkingSkeletonKassaSysteem.csproj"
 COPY . .
-WORKDIR "/src/."
-RUN dotnet build "WalkingSkeletonKassaSysteem.csproj" -c Release -o /app/build
+#WORKDIR "/src/."
+#RUN dotnet build "WalkingSkeletonKassaSysteem.csproj" -c Release -o /app/build
 
 # copy everything else and build app
 COPY . .
-WORKDIR /source/WalkingSkeletonKassaSysteem
+WORKDIR /src/WalkingSkeletonKassaSysteem
 RUN dotnet publish -c release -o /app 
 
 # final stage/image
