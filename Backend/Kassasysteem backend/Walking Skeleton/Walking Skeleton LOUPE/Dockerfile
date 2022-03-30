@@ -10,7 +10,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Walking Skeleton LOUPE/Walking Skeleton.csproj", "Walking Skeleton LOUPE/"]
+COPY ["Walking Skeleton LOUPE/Walking Skeleton.csproj", "Walking Skeleton/"]
 RUN dotnet restore "Walking Skeleton LOUPE/Walking Skeleton.csproj"
 COPY . .
 WORKDIR "/src/Walking Skeleton LOUPE"
