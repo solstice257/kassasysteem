@@ -25,7 +25,7 @@
 #ENTRYPOINT ["dotnet", "WalkingSkeletonKassaSysteem.dll"]
 
 # https://hub.docker.com/_/microsoft-dotnet
-FROM mcr.microsoft.com/dotnet/aspnet6:0 AS build
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS build
 WORKDIR /source
 
 # copy csproj and restore as distinct layers
@@ -41,7 +41,7 @@ WORKDIR /source/WalkingSkeletonKassaSysteem
 RUN dotnet publish -c release -o /app 
 
 # final stage/image
-FROM mcr.microsoft.com/dotnet/aspnet6:0
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build /app ./
 ENTRYPOINT ["dotnet", "WalkingSkeletonKassaSysteem.dll"]
