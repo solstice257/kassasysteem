@@ -27,7 +27,7 @@ jobs:
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: nuget restore ${{env.SOLUTION_FILE_PATH}}
+      run: nuget restore "../../Backend/Kassasysteem backend/Walking Skeleton/Walking Skeleton.sln"
 
     - name: Build
       working-directory: ${{env.GITHUB_WORKSPACE}}
