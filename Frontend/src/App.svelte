@@ -1,23 +1,23 @@
 <script>
-	let name = "TEST";
-	let products = [];
-   async function fetchProducts() {
+	let name = "Users";
+	let users = [];
+   async function fetchUsers() {
 	const response = await fetch(
-	"https://localhost:5000/api/Products"
+	"https://localhost:7087/users"
 	);
 	const data = await response.json();
-	products = data
+	users = data
 	console.log(data)
    }
    </script>
 
 <main>
 	<h1>{name}</h1>
-	<button on:click={fetchProducts}>Fetch products!</button>
-	{#each products as product}
-	  <p>{product.productId}</p>
-	  <p>{product.productName}</p>
-	  <p>{product.productPrice}</p>
+	<button on:click={fetchUsers}>Fetch users</button>
+	{#each users as user}
+	  <p>Userid: {user.userId}</p>
+	  <p>Name: {user.name}</p>
+	  <p>Citizenship: {user.citizenship}</p>
 	  <br>
 	{/each}
    </main>
