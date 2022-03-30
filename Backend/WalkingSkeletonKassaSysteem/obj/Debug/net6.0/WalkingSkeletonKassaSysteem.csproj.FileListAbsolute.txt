@@ -1,8 +1,9 @@
+D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\WalkingSkeletonKassaSysteem.runtimeconfig.json
+D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\appsettings.Development.json
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\appsettings.json
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\WalkingSkeletonKassaSysteem.exe
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\WalkingSkeletonKassaSysteem.deps.json
-D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\WalkingSkeletonKassaSysteem.runtimeconfig.json
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\WalkingSkeletonKassaSysteem.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\WalkingSkeletonKassaSysteem.pdb
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\Humanizer.dll
@@ -38,7 +39,6 @@ D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkel
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\OneDrive - Office 365 Fontys\S6\IPO\Projects\kassasysteem\Backend\WalkingSkeletonKassaSysteem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
