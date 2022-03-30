@@ -27,7 +27,7 @@ jobs:
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: nuget restore "Walking Skeleton.sln"
+      run: nuget restore "Walking Skeleton/Walking Skeleton.sln"
 
     - name: Build
       working-directory: ${{env.GITHUB_WORKSPACE}}
