@@ -11,15 +11,15 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Walking Skeleton LOUPE/Walking Skeleton LOUPE.csproj", "Walking Skeleton LOUPE/"]
-RUN dotnet restore "Walking Skeleton LOUPE/Walking Skeleton LOUPE.csproj"
+RUN dotnet restore "Walking Skeleton LOUPE/Walking Skeleton.csproj"
 COPY . .
 WORKDIR "/src/Walking Skeleton LOUPE"
-RUN dotnet build "Walking Skeleton LOUPE.csproj" -c Release -o /app/build
+RUN dotnet build "Walking Skeleton.csproj" -c Release -o /app/build
 
-FROM build AS publish
-RUN dotnet publish "Walking Skeleton LOUPE.csproj" -c Release -o /app/publish
+#FROM build AS publish
+#RUN dotnet publish "Walking Skeleton LOUPE.csproj" lease -o /app/publish
 
-FROM base AS final
+FROM base -c ReAS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Walking Skeleton LOUPE.dll"]
+ENTRYPOINT ["dotnet", "Walking Skeleton.dll"]
