@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore "../../Backend/Kassasysteem backend/Walking Skeleton/Walking Skeleton LOUPE/Walking Skeleton.csproj"
+      run: dotnet restore "../../Backend/Kassasysteem backend/Walking Skeleton/Walking Skeleton.sln"
     - name: Build
       run: dotnet build --no-restore
 
