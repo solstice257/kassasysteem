@@ -19,11 +19,11 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the backend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag i441576/backend:$(date +%s)
+      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag i441576/backend:$(date)
       
     - name: Build the frontend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Frontend/Dockerfile --tag i441576/frontend:$(date +%s)      
+      run: docker build . --file Frontend/Dockerfile --tag i441576/frontend:$(date)      
       
     - name: Tag backend image 
       run: docker tag i441576/backend:$(date +%s) i441576/backend     
