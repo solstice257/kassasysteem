@@ -26,10 +26,10 @@ jobs:
       run: docker build . --file Frontend/Dockerfile --tag i441576/frontend:latest      
       
     - name: Tag backend image 
-      run: docker tag i441576/backend:$(date +%s) i441576/backend     
+      run: docker tag i441576/backend:latest i441576/backend     
       
     - name: Tag frontend image 
-      run: docker tag i441576/frontend:$(date +%s) i441576/frontend   
+      run: docker tag i441576/frontend:latest i441576/frontend   
       
     - name: Push backend image 
       run: docker push i441576/backend      
