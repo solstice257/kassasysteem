@@ -13,21 +13,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Docker login
+      run: docker login -u i441576 -p henk12345
+    
     - uses: actions/checkout@v3
     - name: Build the backend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag backend:$(date +%s)
-
+      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag i441576/backend:$(date +%s)
+      
     - name: Build the frontend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Frontend/Dockerfile --tag frontend:$(date +%s)
-    
-    #- uses: actions/checkout@v3
-    #- name: Pushing the backend image
-     # working-directory: ${{env.GITHUB_WORKSPACE}}
-     # run: docker push backend:latest
+      run: docker build . --file Frontend/Dockerfile --tag i441576/frontend:$(date +%s)      
       
-    #- uses: actions/checkout@v3
-    #- name: Pushing the backend image
-     # working-directory: ${{env.GITHUB_WORKSPACE}}
-     # run: docker push backend:latest    
+    - name: Tag backend image 
+      run: docker tag i441576/backend:$(date +%s)     
+      
+    - name: Tag frontend image 
+      run: docker tag i441576/frontend:$(date +%s)   
+      
+    - name: Push backend image 
+      run: docker push i441576/backend      
+
+    - name: Push frontend image 
+      run: docker push i441576/backend 
+      
+    - name: Docker Logout 
+      run: Docker logout
+         
+    
+    
