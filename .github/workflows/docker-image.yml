@@ -38,7 +38,7 @@ jobs:
       run: docker push i441576/frontend 
       
     - name: Docker Logout 
-      run: Docker logout
+      run: docker logout
          
     
     
