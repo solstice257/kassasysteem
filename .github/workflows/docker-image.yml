@@ -14,6 +14,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
+    - name: Build the Backend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag cum:$(date +%s)
+      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag backend:$(date +%s)
+
+    - uses: actions/checkout@v3
+    - name: Build the Frontend image
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: docker build . --file Frontend/Dockerfile --tag frontend:$(date +%s)   
