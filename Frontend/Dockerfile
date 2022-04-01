@@ -2,8 +2,8 @@ FROM node:14-alpine
 
 WORKDIR /usr/src/app
 
-COPY rollup.config.js ./
-COPY package*.json ./
+COPY Frontend/rollup.config.js .
+COPY Frontend/package*.json .
 
 RUN npm install
 
