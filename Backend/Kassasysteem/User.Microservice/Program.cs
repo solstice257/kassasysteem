@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("AppDb");
 builder.Services.AddTransient<DataSeeder>();
+builder.Services.AddScoped<IUserDAL, UserDAL>();
 builder.Services.AddDbContext<UserDbContext>(x => x.UseSqlServer(connectionString));
 
 var app = builder.Build();
@@ -34,29 +35,25 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.MapGet("/user/{id}", ([FromServices] UserDbContext db, string id) =>
+app.MapGet("/user/{id}", ([FromServices] IUserDAL db, string id) =>
 {
-    return db.User.Where(x => x.userPin == id).FirstOrDefault();
+    return db.GetUserById(id);
 });
 
-app.MapGet("/users", ([FromServices] UserDbContext db) =>
+app.MapGet("/users", ([FromServices] IUserDAL db) =>
 {
-    return db.User.ToList();
+    return db.GetUsers();
 });
 
-app.MapPut("/user/{id}", ([FromServices] UserDbContext db, UserModel user) =>
+app.MapPut("/user/{id}", ([FromServices] IUserDAL db, UserModel user) =>
 {
-    db.User.Update(user);
-    db.SaveChanges();
-    return db.User.Where(x => x.userPin == user.userPin).FirstOrDefault();
+    db.UpdateUser(user);
 
 });
 
-app.MapPost("/user", ([FromServices] UserDbContext db, UserModel user) =>
+app.MapPost("/user", ([FromServices] IUserDAL db, UserModel user) =>
 {
-    db.User.Add(user);
-    db.SaveChanges();
-    return db.User.ToList();
+    db.AddUser(user);
 });
 
 app.Run();
