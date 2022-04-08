@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sem Kivits\\Documents\\GitHub\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj": {}
+    "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sem Kivits\\Documents\\GitHub\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj": {
+    "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sem Kivits\\Documents\\GitHub\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj",
+        "projectUniqueName": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj",
         "projectName": "WalkingSkeletonKassaSysteem",
-        "projectPath": "C:\\Users\\Sem Kivits\\Documents\\GitHub\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj",
-        "packagesPath": "C:\\Users\\Sem Kivits\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sem Kivits\\Documents\\GitHub\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\obj\\",
+        "projectPath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\WalkingSkeletonKassaSysteem.csproj",
+        "packagesPath": "C:\\Users\\Sem\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\WalkingSkeletonKassaSysteem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sem Kivits\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
