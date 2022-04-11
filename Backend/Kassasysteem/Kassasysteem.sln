@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{AD569898-308B-4FBE-9A27-8BCBCDA9BF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Microservice", "User.Microservice\User.Microservice.csproj", "{01FFC7F5-FDFD-4D56-B521-B06296E4A847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Microservice", "User.Microservice\User.Microservice.csproj", "{01FFC7F5-FDFD-4D56-B521-B06296E4A847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Microservice.Test", "User.Microservice.Test\User.Microservice.Test.csproj", "{4CAAF530-1EA0-4B47-849E-262590E08313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{01FFC7F5-FDFD-4D56-B521-B06296E4A847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01FFC7F5-FDFD-4D56-B521-B06296E4A847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01FFC7F5-FDFD-4D56-B521-B06296E4A847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAAF530-1EA0-4B47-849E-262590E08313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAAF530-1EA0-4B47-849E-262590E08313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAAF530-1EA0-4B47-849E-262590E08313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAAF530-1EA0-4B47-849E-262590E08313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01FFC7F5-FDFD-4D56-B521-B06296E4A847} = {AD569898-308B-4FBE-9A27-8BCBCDA9BF09}
+		{4CAAF530-1EA0-4B47-849E-262590E08313} = {AD569898-308B-4FBE-9A27-8BCBCDA9BF09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1327B76-CD48-4A69-BF33-EF8FF52BFE87}

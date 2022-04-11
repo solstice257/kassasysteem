@@ -19,6 +19,7 @@ var app = builder.Build();
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
     SeedData(app);
 
+
 void SeedData(IHost app)
 {
     var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
@@ -34,6 +35,8 @@ if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
+
+app.MapGet("/", () => "Hello World!"); 
 
 app.MapGet("/user/{id}", ([FromServices] IUserDAL db, string id) =>
 {
@@ -57,3 +60,5 @@ app.MapPost("/user", ([FromServices] IUserDAL db, UserModel user) =>
 });
 
 app.Run();
+
+public partial class Program { }
