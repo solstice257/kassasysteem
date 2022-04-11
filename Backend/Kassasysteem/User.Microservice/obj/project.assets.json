@@ -1829,11 +1829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Kassasysteem\\User.Microservice\\User.Microservice.csproj",
+      "projectUniqueName": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\Kassasysteem\\User.Microservice\\User.Microservice.csproj",
       "projectName": "User.Microservice",
-      "projectPath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Kassasysteem\\User.Microservice\\User.Microservice.csproj",
+      "projectPath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\Kassasysteem\\User.Microservice\\User.Microservice.csproj",
       "packagesPath": "C:\\Users\\Sem\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Kassasysteem\\User.Microservice\\obj\\",
+      "outputPath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\Kassasysteem\\User.Microservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sem\\AppData\\Roaming\\NuGet\\NuGet.Config",

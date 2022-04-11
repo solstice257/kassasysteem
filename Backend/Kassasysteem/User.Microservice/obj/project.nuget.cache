@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MrdH4lj/Rm8MoBz3NgNpv6ipg26FE1Uhy/+Ord06/YibfAnVxF0echHeAZ8qTyI0+3oZp62cbGmP7qjBb0WcUA==",
+  "dgSpecHash": "NolO4Y6NZJVPZrWNiobh7N8bhVAb3s7vmRpWq/B1INtwOsfv5pmnGk4hADFsdO7LNDaxkHlpYu6Fys7h8yI+fw==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Kassasysteem\\User.Microservice\\User.Microservice.csproj",
+  "projectFilePath": "D:\\OneDrive - Office 365 Fontys\\S6\\IPO\\Projects\\kassasysteem\\Backend\\Kassasysteem\\User.Microservice\\User.Microservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sem\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sem\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
