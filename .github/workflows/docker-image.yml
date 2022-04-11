@@ -19,23 +19,23 @@ jobs:
     
     - name: Build the backend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Backend/WalkingSkeletonKassaSysteem/Dockerfile --tag i441576/backend:latest
+      run: docker build . --file Backend/Kassasysteem/User.Microservice/Dockerfile --tag i441576/kassasysteem-backend:latest
       
     - name: Build the frontend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: docker build . --file Frontend/Dockerfile --tag i441576/frontend:latest      
+      run: docker build . --file Frontend/Dockerfile --tag i441576/kassasysteem-frontend:latest      
       
     - name: Tag backend image 
-      run: docker tag i441576/backend:latest i441576/backend     
+      run: docker tag i441576/kassasysteem-backend:latest i441576/kassasysteem-backend     
       
     - name: Tag frontend image 
-      run: docker tag i441576/frontend:latest i441576/frontend   
+      run: docker tag i441576/kassasysteem-frontend:latest i441576/kassasysteem-frontend   
       
     - name: Push backend image 
-      run: docker push i441576/backend      
+      run: docker push i441576/kassasysteem-backend       
 
     - name: Push frontend image 
-      run: docker push i441576/frontend 
+      run: docker push i441576/kassasysteem-frontend 
       
     - name: Docker Logout 
       run: docker logout
