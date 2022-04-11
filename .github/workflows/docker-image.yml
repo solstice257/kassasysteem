@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    
 
 jobs:
 
@@ -27,16 +28,7 @@ jobs:
     - name: Build the frontend image
       working-directory: ${{env.GITHUB_WORKSPACE}}
       run: docker build . --file Frontend/Dockerfile --tag i441576/kassasysteem-frontend:latest     
-      
-  Docker:
-    needs:
-      - build
-      
-    runs-on: ubuntu-latest
-    
-    steps:
-  
-    - uses: actions/checkout@v3   
+       
     - name: Tag backend image 
       run: docker tag i441576/kassasysteem-backend:latest i441576/kassasysteem-backend     
       
