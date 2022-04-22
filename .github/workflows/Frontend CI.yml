@@ -1,4 +1,4 @@
-name: UserHandler.Microservice CI/CD
+name: Frontend CI/CD
 
 # Controls when the workflow will run
 on:
