@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY Backend/Kassasysteem/User.Microservice/ ./
+COPY Backend/Kassasysteem/User.Microservice/ ./User.Microservice
 RUN ls
 RUN dotnet restore "./User.Microservice/User.Microservice.csproj"
-COPY Backend/Kassasysteem/User.Microservice.Test/ ./
+COPY Backend/Kassasysteem/User.Microservice.Test/ ./User.Microservice.Test
 RUN dotnet restore "./User.Microservice.Test/User.Microservice.Test.csproj"
 COPY /Backend .
 WORKDIR /src
