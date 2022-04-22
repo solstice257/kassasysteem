@@ -60,10 +60,11 @@ jobs:
     - test
     
     runs-on: ubuntu-latest
-        
     steps:
     - name: SonarCloud Scan
-      uses: SonarSource/sonarcloud-github-action@v1.6
+      uses: sonarsource/sonarcloud-github-action@master
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
 
     
