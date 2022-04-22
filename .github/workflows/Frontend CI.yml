@@ -34,7 +34,7 @@ jobs:
         - name: tag image
           run: docker tag $DOCKER_IMAGE_NAME $DOCKER_REPO_NAME
         - name: push image
-          run: docker push $DOCKER_REPO_NAME:latest
+          run: docker push $DOCKER_REPO_NAME
          
     
     
