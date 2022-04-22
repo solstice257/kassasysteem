@@ -12,10 +12,10 @@ COPY Backend/Kassasysteem/User.Microservice.Test/ ./User.Microservice.Test
 RUN dotnet restore "./User.Microservice.Test/User.Microservice.Test.csproj"
 COPY /Backend .
 WORKDIR /src
-RUN dotnet build "User.Microservice.csproj" -c Release -o /app/build
+RUN dotnet build "./User.Microservice/User.Microservice.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "User.Microservice.csproj" -c Release -o /app/publish
+RUN dotnet publish "./User.Microservice/User.Microservice.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
