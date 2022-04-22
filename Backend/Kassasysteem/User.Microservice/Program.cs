@@ -19,7 +19,6 @@ var app = builder.Build();
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
     SeedData(app);
 
-//cockandballs
 
 void SeedData(IHost app)
 {
