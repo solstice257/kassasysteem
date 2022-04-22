@@ -14,7 +14,7 @@ on:
 env:
   PATH_TO_DOCKERFILE: './Backend/Kassasysteem/User.Microservice/Dockerfile'
   DOCKER_IMAGE_NAME: user.microservice:latest
-  DOCKER_REPO_NAME: 441576/user.microservice
+  DOCKER_REPO_NAME: i441576/user.microservice
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -34,4 +34,4 @@ jobs:
         - name: tag image
           run: docker tag $DOCKER_IMAGE_NAME $DOCKER_REPO_NAME
         - name: push image
-          run: docker push $DOCKER_REPO_NAME:latest
+          run: docker push i441576/user.microservice
