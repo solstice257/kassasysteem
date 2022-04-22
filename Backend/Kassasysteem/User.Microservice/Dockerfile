@@ -7,7 +7,9 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY Backend/Kassasysteem/User.Microservice/*.csproj .
 RUN dotnet restore "./User.Microservice.csproj"
-COPY . .
+COPY Backend/Kassasysteem/User.Microservice.Test/*.csproj .
+RUN dotnet restore "./User.Microservice.Test.csproj"
+COPY /Backend .
 WORKDIR /src
 RUN dotnet build "User.Microservice.csproj" -c Release -o /app/build
 

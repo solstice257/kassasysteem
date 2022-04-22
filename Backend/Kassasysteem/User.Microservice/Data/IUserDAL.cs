@@ -1,4 +1,5 @@
-﻿using User.Microservice.Model;
+﻿using Microsoft.AspNetCore.Mvc;
+using User.Microservice.Model;
 
 namespace User.Microservice.Data
 {
