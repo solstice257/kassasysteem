@@ -4,7 +4,7 @@ name: .NET Core 6 CI/CD
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, pieter-pipeline ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -54,3 +54,16 @@ jobs:
         run: dotnet restore $PATH_TO_SLN
       - name: Test
         run: dotnet test --no-restore $PATH_TO_SLN #--verbosity normal
+  
+  SonarCloud:
+    needs:
+    - test
+    
+    runs-on: ubuntu-latest
+        
+    steps:
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@v1.6
+
+
+    
