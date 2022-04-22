@@ -38,8 +38,6 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapGet("/", () => "Hello World!");
-
 app.MapGet("/user/{id}", ([FromServices] IUserDAL db, string id) =>
 {
     return db.GetUserById(id);
