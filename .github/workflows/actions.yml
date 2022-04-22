@@ -63,6 +63,10 @@ jobs:
     steps:
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
+      with: 
+         args: >
+          -Dsonar.organization=solstice257
+          -Dsonar.projectKey=solstice257_kassasysteem
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
