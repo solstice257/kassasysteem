@@ -92,7 +92,7 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"solstice257_kassasysteem" /o:"solstice257" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build $PATH_TO_SLN
+          dotnet build './Backend/Kassasysteem/Kassasysteem.sln'
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"  
 
 
