@@ -50,7 +50,7 @@ namespace User.Microservice.Test
             stub.testValue = true;
 
             // Act
-            var response = await httpClient.GetAsync("/users");
+            var response = await httpClient.GetAsync("/user/get/all");
 
             // Assert
             response.EnsureSuccessStatusCode();
@@ -66,7 +66,7 @@ namespace User.Microservice.Test
             stub.testValue = true;
 
             // Act
-            var response = await httpClient.GetAsync("/user/44");
+            var response = await httpClient.GetAsync("/user/get/44");
 
             // Assert
             response.EnsureSuccessStatusCode();
@@ -88,7 +88,7 @@ namespace User.Microservice.Test
             StringContent httpContent = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
             // Act
-            var response = await httpClient.PutAsync("/user/44", httpContent);
+            var response = await httpClient.PutAsync("/user/update/44", httpContent);
 
             // Assert
             response.EnsureSuccessStatusCode();
@@ -110,7 +110,29 @@ namespace User.Microservice.Test
             StringContent httpContent = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
             // Act
-            var response = await httpClient.PostAsync("/user", httpContent);
+            var response = await httpClient.PostAsync("/user/add", httpContent);
+
+            // Assert
+            response.EnsureSuccessStatusCode();
+        }
+
+        [Fact]
+        public async void DeleteCertainUser_Passed()
+        {
+            // Arrange
+            UserModel userModel = new UserModel();
+            userModel.userName = "mark";
+            userModel.userPin = "11";
+            var webAppFactory = new ApiTests();
+            HttpClient httpClient = webAppFactory.CreateClient();
+            stub.testValue = true;
+
+            string json = JsonConvert.SerializeObject(userModel);
+
+            StringContent httpContent = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+
+            // Act
+            var response = await httpClient.PostAsync("/user/delete/11", httpContent);
 
             // Assert
             response.EnsureSuccessStatusCode();

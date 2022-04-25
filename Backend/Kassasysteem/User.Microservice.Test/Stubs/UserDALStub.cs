@@ -53,5 +53,17 @@ namespace User.Microservice.Test.Stubs
         {
             return new UserModel();
         }
+
+        public List<UserModel> DeleteUser(string id)
+        {
+            if (testValue == true)
+            {
+                return new List<UserModel>();
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace User.Microservice.Data
         List<UserModel> GetUsers();
         UserModel UpdateUser(UserModel user);
         UserModel GetUserById(string id);
+        List<UserModel> DeleteUser(string id);
     }
 }

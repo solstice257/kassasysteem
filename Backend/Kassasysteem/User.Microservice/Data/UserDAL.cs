@@ -28,6 +28,14 @@ namespace User.Microservice.Data
             return db.User.ToList();
         }
 
+        public List<UserModel> DeleteUser(string id)
+        {
+            var usertodelete = db.User.Where(x => x.userPin == id).FirstOrDefault();
+            db.User.Remove(usertodelete);
+            db.SaveChanges();
+            return db.User.ToList();
+        }
+
         public UserModel GetUserById(string id)
         {
             return db.User.Where(x => x.userPin == id).FirstOrDefault();

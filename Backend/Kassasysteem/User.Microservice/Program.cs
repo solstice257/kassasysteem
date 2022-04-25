@@ -38,25 +38,30 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapGet("/user/{id}", ([FromServices] IUserDAL db, string id) =>
+app.MapGet("/user/get/{id}", ([FromServices] IUserDAL db, string id) =>
 {
     return db.GetUserById(id);
 });
 
-app.MapGet("/users", ([FromServices] IUserDAL db) =>
+app.MapGet("/user/get/all", ([FromServices] IUserDAL db) =>
 {
     return db.GetUsers();
 });
 
-app.MapPut("/user/{id}", ([FromServices] IUserDAL db, UserModel user) =>
+app.MapPut("/user/update/{id}", ([FromServices] IUserDAL db, UserModel user) =>
 {
     db.UpdateUser(user);
 
 });
 
-app.MapPost("/user", ([FromServices] IUserDAL db, UserModel user) =>
+app.MapPost("/user/add", ([FromServices] IUserDAL db, UserModel user) =>
 {
     db.AddUser(user);
+});
+
+app.MapDelete("/user/delete/{id}", ([FromServices] IUserDAL db, string id) =>
+{
+    db.DeleteUser(id);
 });
 
 app.Run();
