@@ -120,19 +120,12 @@ namespace User.Microservice.Test
         public async void DeleteCertainUser_Passed()
         {
             // Arrange
-            UserModel userModel = new UserModel();
-            userModel.userName = "mark";
-            userModel.userPin = "11";
             var webAppFactory = new ApiTests();
             HttpClient httpClient = webAppFactory.CreateClient();
             stub.testValue = true;
 
-            string json = JsonConvert.SerializeObject(userModel);
-
-            StringContent httpContent = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
-
             // Act
-            var response = await httpClient.PostAsync("/user/delete/11", httpContent);
+            var response = await httpClient.DeleteAsync("/user/delete/11");
 
             // Assert
             response.EnsureSuccessStatusCode();
