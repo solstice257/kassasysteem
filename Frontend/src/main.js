@@ -1,6 +1,7 @@
-import App from './App.svelte';
+import Main from './Main.svelte';
+import Login from './Login.svelte';
 
-var app = new App({
+var app = new Main({
 	target: document.body
 });
 

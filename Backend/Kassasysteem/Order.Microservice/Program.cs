@@ -22,7 +22,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       builder =>
                       {
-                          builder.WithOrigins("http://localhost:8080");
+                          builder.WithOrigins("http://localhost:8080")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials();
                       });
 });
 
@@ -64,7 +67,7 @@ app.MapDelete("/order/delete", ([FromServices] IOrderDAL db, int id) =>
 
 app.MapGet("/order/get/all", ([FromServices] IOrderDAL db) =>
 {
-    db.GetOrders();
+    return db.GetOrders();
 
 });
 
