@@ -1,0 +1,122 @@
+﻿
+  {
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/user/get/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5065
+          }
+        ],
+        "UpstreamPathTemplate": "/user/get/{id}",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "User.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/user/get/all",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5065
+          }
+        ],
+        "UpstreamPathTemplate": "/user/get/all",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "User.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/user/update/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5065
+          }
+        ],
+        "UpstreamPathTemplate": "/user/update/{id}",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "User.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/user/add",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5065
+          }
+        ],
+        "UpstreamPathTemplate": "/user/add",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "User.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/user/delete/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5065
+          }
+        ],
+        "UpstreamPathTemplate": "/user/delete/{id}",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "User.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/order/add",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7009
+          }
+        ],
+        "UpstreamPathTemplate": "/order/add",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "Order.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/order/delete",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7009
+          }
+        ],
+        "UpstreamPathTemplate": "/order/delete",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "Order.Microservice"
+      },
+      {
+        "DownstreamPathTemplate": "/order/get/all",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7009
+          }
+        ],
+        "UpstreamPathTemplate": "/order/get/all",
+        "UpstreamHttpMethod": [ "POST", "GET" ],
+        "SwaggerKey": "Order.Microservice"
+      }
+    ],
+    "SwaggerEndPoints": [
+      {
+        "Key": "UserHandler.Microservice",
+        "Config": [
+          {
+            "Name": "UserHandler API",
+            "Version": "v1",
+            "Url": "https://localhost:5065/swagger/v1/swagger.json"
+          }
+        ]
+      }
+    ],
+    "GlobalConfiguration": {}
+  }
