@@ -10,7 +10,7 @@ namespace SharedLibrary
     {
         public string userName = "guest";
         public string password = "guest";
-        public string url = "192.168.222.128:5672";
+        public string url = "192.168.246.131:5672";
         public string queueName = "OrderQueue";
     }
 }
